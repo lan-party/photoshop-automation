@@ -39,26 +39,26 @@ for filename in filenamelist:
 batchcount = 0
 for batch in filltext[0]:
     # Open template file
-    # psApp.Open(r"C:\Users\dell\Documents\thelasersedge\automation\template.psd")
+    # psApp.Open(r"C:\path\to\template.psd")
     # doc = psApp.Application.ActiveDocument
     # Set text for all layers
     for a in range(1, len(batch)):
         # doc.ArtLayers[str(a)].TextItem.contents = batch[a-1]
         print(batch[a-1])
     # Save as a new psd
-    # doc.SaveAs(r"C:\Users\dell\Documents\thelasersedge\automation\batch"+str(batchcount)+".psd")
+    # doc.SaveAs(r"C:\path\to\batch"+str(batchcount)+".psd")
     batchcount += 1
 
 print("")
 
 for batch in filltext[1]:
     # Open template file
-    # psApp.Open(r"C:\Users\dell\Documents\thelasersedge\automation\template2.psd")
+    # psApp.Open(r"C:\path\to\template2.psd")
     # doc = psApp.Application.ActiveDocument
     # Set text for all layers
     for a in range(1, len(batch)):
         # doc.ArtLayers[str(a)].TextItem.contents = batch[a-1]
         print(batch[a-1])
     # Save as a new psd
-    #doc.SaveAs(r"C:\Users\dell\Documents\thelasersedge\automation\batch"+str(batchcount)+".psd")
+    #doc.SaveAs(r"C:\path\to\batch"+str(batchcount)+".psd")
     batchcount += 1
